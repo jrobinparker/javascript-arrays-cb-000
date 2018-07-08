@@ -26,8 +26,9 @@ function destructivelyAddElementToEndOfArray(myArray, newItem) {
   return myArray
 }
 
+var myArray = [1, 2, 3, 4, 5]
+
 function accessElementInArray(myArray, index) {
-  myArray = [1, 2, 3, 4, 5]
   return myArray[index]
 }
 
