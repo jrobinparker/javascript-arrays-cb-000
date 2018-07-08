@@ -16,29 +16,29 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 var array = [1]
 
-function addElementToEndOfArray(myArray, newItem) {
-  newArray = [...myArray, newItem]
+function addElementToEndOfArray(array, newItem) {
+  newArray = [...array, newItem]
   return newArray
 }
 
-var myArray = [1]
+var array = [1]
 
-function destructivelyAddElementToEndOfArray(myArray, newItem) {
-  myArray.push(newItem)
-  return myArray
+function destructivelyAddElementToEndOfArray(array, newItem) {
+  array.push(newItem)
+  return array
 }
 
-var myArray = [1, 2, 3, 4, 5]
+var array = [1, 2, 3, 4, 5]
 
-function accessElementInArray(myArray, index) {
-  return myArray[index]
+function accessElementInArray(array, index) {
+  return array[index]
 }
 
-var myArray = [1, 2, 3]
+var array = [1, 2, 3]
 
-function destructivelyRemoveElementFromBeginningOfArray(myArray) {
-  myArray.shift()
-  return myArray
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift()
+  return array
 }
 
 var array = [1, 2, 3, 4, 5]
