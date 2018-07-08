@@ -58,7 +58,3 @@ function removeElementFromEndOfArray(array) {
   array.slice(0, array.length - 1)
   return array
 }
-
-var array = [1, 2, 3, 4, 5]
-
-function removeElementFrom
