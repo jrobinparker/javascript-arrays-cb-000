@@ -38,9 +38,9 @@ function destructivelyRemoveElementFromBeginningOfArray(myArray) {
   return myArray
 }
 
-var array = [1, 2, 3, 4, 5]
 
 function removeElementFromBeginningOfArray(array) {
+  array = [1, 2, 3, 4, 5]
   array = array.slice(1)
   return array
 }
